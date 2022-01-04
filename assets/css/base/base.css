@@ -16,19 +16,19 @@ body {
 }
 
 .titulo {
-    font-size: var(--tamnaho-titulo);
+    font-size: var(--tamanho-titulo);
 }
 
-.titulo--destaque {`
-font-family: var(--familia-titulo-destaque);
-color: var(--preto);
-font-size: var(--tamnaho-titulo-destaque);
-font-weight: var(--peso-titulo-destaque);
+.titulo--destaque {
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
 
-display: block;
+    display: block;
 
-margin-top:.75rem;
-margin-bottom:.75rem;
+    margin-top: .75rem;
+    margin-bottom: .75rem;
 }
 
 .alinhamento--esquerda {
@@ -40,5 +40,5 @@ margin-bottom:.75rem;
 }
 
 .texto {
-    line-height: 26px
+    line-height: 26px;
 }
